@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
 
-  
-
   const handleSignUp = (e) => {
     e.preventDefault();
-   
+    
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4">
       <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+        
         {/* Left Side Form */}
         <div className="w-full md:w-5/12 p-8 md:p-12 flex flex-col justify-center">
           <div className="max-w-sm mx-auto w-full">
+            
             {/* Logo */}
             <div className="mb-8">
               <img 
@@ -70,18 +69,18 @@ const SignUp = () => {
             </button>
 
             {/* Sign Up Form */}
-            <div onSubmit={handleSignUp}>
+            <form onSubmit={handleSignUp}>
               <p className="text-center text-sm text-gray-600 mb-4">
                 Don't have an account?{' '}
                 <Link to="/login" className="text-purple-600 hover:text-purple-700 font-semibold">
                   login
                 </Link>
               </p>
-            </div>
+            </form>
           </div>
         </div>
 
-        {/* Right  Image */}
+        {/* Right Image */}
         <div className="hidden md:block md:w-7/12 relative bg-white">
           <div className="absolute inset-0 flex items-center justify-center p-12">
             <div className="relative w-full h-full rounded-3xl overflow-hidden shadow-2xl">
@@ -100,6 +99,7 @@ const SignUp = () => {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

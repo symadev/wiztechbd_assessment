@@ -1,37 +1,34 @@
 import React, { useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Eye, EyeOff } from 'lucide-react';
 
 const Login = () => {
- 
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
 
   const handleLogin = (e) => {
     e.preventDefault();
-
+   
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-white p-4">
       <div className="w-full max-w-6xl bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
-        {/* Left Side - Login Form */}
+        
+        {/* Left Side  Form */}
         <div className="w-full md:w-5/12 p-8 md:p-12 flex flex-col justify-center">
           <div className="max-w-sm mx-auto w-full">
+            
             {/* Logo */}
             <div className="mb-8">
               <img 
                 src="/images/WiztecBD.png" 
                 alt="WiztecBD" 
                 className="h-6 mb-6"
-               
               />
-             
             </div>
 
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              Welcome Back
-            </h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">Welcome Back</h1>
             <p className="text-gray-500 mb-8">
               Let's login to grab amazing deal
             </p>
@@ -70,7 +67,7 @@ const Login = () => {
             </div>
 
             {/* Login Form */}
-            <div onSubmit={handleLogin}>
+            <form onSubmit={handleLogin}>
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
                   Email
@@ -122,7 +119,7 @@ const Login = () => {
               </div>
 
               <button
-                onClick={handleLogin}
+                type="submit"
                 className="w-full bg-purple-700 text-white py-3 rounded-lg font-semibold hover:bg-purple-800 transition mb-6"
               >
                 Login
@@ -134,7 +131,7 @@ const Login = () => {
                   Sign Up
                 </Link>
               </p>
-            </div>
+            </form>
           </div>
         </div>
 
@@ -146,10 +143,8 @@ const Login = () => {
                 src="/images/login.png"
                 alt="Property"
                 className="w-full h-full object-cover"
-                
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-              
             </div>
           </div>
         </div>
