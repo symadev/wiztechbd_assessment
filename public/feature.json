@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "/images/payment.png",
+    "title": "Rent Payments",
+    "description": "Secure online rent payments with automated reminders for tenants."
+  },
+  {
+    "icon": "/images/rent.png",
+    "title": "Property Analytics",
+    "description": "Understand occupancy, revenue, and tenant activity with smart built-in analytics."
+  },
+  {
+    "icon": "/images/enterprise.png",
+    "title": "Updates & Announcements",
+    "description": "Send important building updates or community announcements to all tenants."
+  },
+  {
+    "icon": "/images/page.png",
+    "title": "Property Pages",
+    "description": "Showcase detailed property profiles with photos, amenities, and rental information."
+  },
+  {
+    "icon": "/images/email.png",
+    "title": "Tenant Management",
+    "description": "Organize tenant information, track requests, and manage communication easily."
+  },
+  {
+    "icon": "/images/tenant.png",
+    "title": "Email Alerts",
+    "description": "Send automated emails for payment confirmations, maintenance updates, and notices."
+  },
+  {
+    "icon": "/images/agent.png",
+    "title": "Agent Network",
+    "description": "Collaborate with multiple agents to rent properties faster and expand your reach."
+  },
+  {
+    "icon": "/images/enterprise.png",
+    "title": "Enterprise Plan",
+    "description": "Full white-label rental platform with branding freedom, private data protection, and 24/7 support."
+  }
+]

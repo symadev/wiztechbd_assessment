@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Maple Grove Garden House",
+    "image": "/images/image1.png",
+    "price_per_week": 280,
+    "location": "New York, USA",
+    "beds": 4,
+    "bathrooms": 4,
+    "area": "2500 sqft"
+  },
+  {
+    "id": "2",
+    "title": "Sunset Towers Eklsobet",
+    "image": "/images/image2.png",
+    "price_per_week": 340,
+    "location": "New York, USA",
+    "beds": 7,
+    "bathrooms": 4,
+    "area": "6500 sqft"
+  },
+  {
+    "id": "3",
+    "title": "Riverside Retreat",
+    "image": "/images/image3.png",
+    "price_per_week": 280,
+    "location": "New York, USA",
+    "beds": 4,
+    "bathrooms": 4,
+    "area": "3500 sqft"
+  },
+  {
+    "id": "4",
+    "title": "Golden Meadows",
+    "image": "/images/image4.png",
+    "price_per_week": 280,
+    "location": "New York, USA",
+    "beds": 4,
+    "bathrooms": 4,
+    "area": "4500 sqft"
+  },
+  {
+    "id": "5",
+    "title": "Ocean Sea Breeze",
+    "image": "/images/image5.png",
+    "price_per_week": 280,
+    "location": "New York, USA",
+    "beds": 8,
+    "bathrooms": 5,
+    "area": "5000 sqft"
+  },
+  {
+    "id": "6",
+    "title": "The Urban Nest Lofts",
+    "image": "/images/image6.png",
+    "price_per_week": 280,
+    "location": "New York, USA",
+    "beds": 6,
+    "bathrooms": 5,
+    "area": "5500 sqft"
+  }
+]
